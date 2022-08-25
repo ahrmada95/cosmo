@@ -122,28 +122,5 @@ class TicTacToe
     end
 end
 
-# this_game = TicTacToe.new
-
-# while(this_game.is_win? == false && this_game.is_tie? == false)
-#     this_game.draw_board
-#     puts "Turn Count: #{this_game.turn_count}"
-#     puts "Where do you want to place (0-8)?: "
-#     position = gets.to_i
-
-#     while (this_game.place_piece(position) == false)
-#         puts "Invalid move, please place it in a valid location (0-8):"
-#         position = gets.to_i
-#     end
-# end
-
-# this_game.draw_board
-
-# if (this_game.is_win? == true) 
-#     puts "#{this_game.turn_count % 2 ? "Player 1 Wins!" : "Player 2 Wins!"}"
-# elsif (this_game.is_tie? == true) 
-#     "Tie Game!"
-# else 
-#     return false
-# end 
 
 

@@ -16,7 +16,7 @@ class Tree
 
 
         #initialize node, default value is that of a root, with COSMO as the player, first turn of the game, no position, win_weight of 0
-        def initialize (index=0, parent=0, player_type=COSMO, turn_count=1, win_weight=0, position)
+        def initialize (index=0, parent=-1, player_type=COSMO, turn_count=1, win_weight=0, position)
             @index = index
             @parent = parent
             @children = [] #empty array of children indexes
